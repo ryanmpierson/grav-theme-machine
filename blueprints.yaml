@@ -1,0 +1,17 @@
+name: Machine
+version: 2.0.3
+description: "Machine is a Industrial Category that comes with a free Flat Responsive web design template."
+icon: empire
+author:
+  name: NunoPress
+  email: hello@nunopress.com
+  url: http://nunopress.com
+homepage: https://github.com/nunopress/grav-theme-machine
+demo: http://grav-demo.nunopress.com
+keywords: "bootstrap, theme, corporate, industrial, responsive, html5, css3, jquery, jscomments, gmaps"
+bugs: https://github.com/nunopress/grav-theme-machine/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:

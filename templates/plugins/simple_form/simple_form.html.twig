@@ -1,0 +1,14 @@
+<form name="simple_form" id="simple_form" action="https://getsimpleform.com/messages?form_api_token={{ token }}" enctype="multipart/form-data" method="post">
+
+  <input type="text" name="first_name" value="{{ fields.first_name.title }}" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+
+  <input type="text" name="last_name" value="{{ fields.last_name.title }}" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+
+  <input type="text" name="phone_number" value="{{ fields.phone_number.title }}" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+
+  <textarea name="message" cols="77" rows="6" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}">{{ fields.message.title }}</textarea>
+
+  <div class="send-in">
+    <input type="submit" value="{{ fields.submit.title }}" />
+  </div>
+</form>
